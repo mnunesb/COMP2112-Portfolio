@@ -11,45 +11,53 @@
     <link rel="stylesheet" href="/content/app.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+  <header>
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <img class="logo" src="/assets/logo-no-bg.png" alt="Logo">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Bio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link" href="#">Contact Me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link" href="#">My Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Available Services</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
+  </header>
+  <main>
+    <div class="main-body text-center text-light">
+      <h1 class="main-header">
+        Hello, my name is Marcello Bernardes and I am a Web Developer
+      </h1>
+      <h2 class="sub-text">
+        Looking to put your brand online and impacting your target audience?
+      </h2>
+      <div class="CTA d-grid gap-2 col-6 mx-auto">
+        <a href="contact.html"><button class="btn btn-primary" type="button">Lets find a solution together!</button></a>
+      </div>
     </div>
+    <div class="illustration">
+      <img src="assets/man-desk.jpg" alt="man working on desk">
+    </div>
+  </main>
+  <footer class="bg-dark">
+    <h3 class="text-light">hello world</h3>
+  </footer>
     <!-- JavaScript SECTION-->
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/scripts/app.js"></script>

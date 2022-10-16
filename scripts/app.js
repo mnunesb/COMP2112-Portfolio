@@ -8,11 +8,5 @@ File description: Main script page using js
 (function()
 {
 
-    let Start = () =>
-    {
-        console.log("App Started!");
-    }
-
-    window.addEventListener("load", Start);
     
 })();
