@@ -1,4 +1,4 @@
-/* Header Info for contact page
+/* Header Info for Service page
 Author: Marcello Nunes Bernardes
 Web site name: 
 File description: Style page for the contac page */
@@ -18,25 +18,21 @@ body{
     background-image: url(/assets/bg.jpg);
     height:80vh;
 }
-.content{
+.main-content{
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
 }
-/*Form*/
-form{
-    font-size: 1.5em;
-    flex-grow: 2;
-    padding-top: 30px;
-    padding-right: 40px;
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
 }
-.content .content-header{
-    flex-grow: 2;
-    padding-top: 20px;
-    padding-left: 30px;
-}
-.content img{
-    padding-left: 30px;
-    max-height: 60%;
-    margin-bottom: -100px;
+.images img{
+    border: 2px black solid;
+    margin: 20px;
+    max-height: 400px;
+    max-width: 400px;
 }
