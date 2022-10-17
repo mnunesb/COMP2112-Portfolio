@@ -3,6 +3,7 @@ Author: Marcello Nunes Bernardes
 Web site name: 
 File description: Style page for the contac page */
 
+/*nav bar*/
 .logo{
     height: 50px;
     padding-right: 20px;
@@ -10,6 +11,8 @@ File description: Style page for the contac page */
 header{
     height: 10vh;
 }
+
+/*Background implementation*/
 body{
     margin-top: 0;
     background-image: url(/assets/bg.jpg);
@@ -20,6 +23,7 @@ body{
     flex-wrap: wrap;
     padding-top: 20px;
 }
+/*Form*/
 form{
     font-size: 1.5em;
     flex-grow: 2;
@@ -36,11 +40,3 @@ form{
     max-height: 60%;
     margin-bottom: -100px;
 }
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    text-align: center;
-  }
